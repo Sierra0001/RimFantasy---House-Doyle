@@ -8,44 +8,53 @@
     <graphicData>
       <texPath>Things/Item/Resource/Amethyst</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>(0.9,0.9)</drawSize>
     </graphicData>
-    <!--<soundInteract>ChunkRock_Drop</soundInteract>-->
-    <!--<soundDrop>ChunkRock_Drop</soundDrop>-->
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <RoyalFavorValue>0.030</RoyalFavorValue>
-      <Beauty>2</Beauty>
-      <MarketValue>25</MarketValue>
-      <Mass>0.075</Mass>
-    </statBases>
-    <tradeTags>
-      <li>RF_Gemstones</li>
-    </tradeTags>
-    <useHitPoints>true</useHitPoints>
+    <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>4.5</MarketValue>
+      <!--<RoyalFavorValue>0.030</RoyalFavorValue>-->
+      <Mass>0.4</Mass>
+      <StuffPower_Armor_Sharp>0.96</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.48</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.39</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <BluntDamageMultiplier>1.5</BluntDamageMultiplier>
+    </statBases>
     <thingCategories>
-      <li>RF_Gemstones</li>
+      <li>ResourcesRaw</li>
     </thingCategories>
+    <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>8</deepCountPerPortion>
+    <deepLumpSizeRange>1~4</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
     <stuffProps>
       <categories>
-        <li>RF_Gemstones</li>
+        <li>DankPyon_Gems</li>
       </categories>
       <commonality>0.05</commonality>
+      <color>(137,24,132)</color>
       <constructEffect>ConstructMetal</constructEffect>
-      <color>(211,211,211)</color>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
-      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>9</Beauty>
+      </statOffsets>
       <statFactors>
-        <MaxHitPoints>2.8</MaxHitPoints>
-        <Beauty>8</Beauty>
+        <MaxHitPoints>0.55</MaxHitPoints>
+        <WorkToMake>1.5</WorkToMake>
+        <WorkToBuild>5.3</WorkToBuild>
+        <Beauty>2.3</Beauty>
         <Flammability>0</Flammability>
-        <WorkToMake>2.2</WorkToMake>
-        <WorkToBuild>2.2</WorkToBuild>
-        <MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
 
 </Defs>
