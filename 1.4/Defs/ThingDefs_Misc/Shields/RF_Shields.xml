@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DankPyon_BaseShield">
+    <defName>RF_HeraldicHeaterShield_Doyle</defName>
+    <label>heater shield (Doyle)</label>
+    <description>A light triangular shield. \n\nThis heater shield carries the colours of house Doyle.</description>
+    <!--<possessionCount>1</possessionCount>-->
+    <!--<recipeMaker>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>DankPyon_Anvil</li>
+      </recipeUsers>
+    </recipeMaker>-->
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/RF_HeraldicHeaterShield_Doyle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.75</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <costList> <!-- Make sure this is working -->
+      <RF_Amethyst>3</RF_Amethyst>
+    </costList>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>4</Mass>
+      <StuffEffectMultiplierArmor>0.44</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+      <Flammability>1</Flammability>
+    </statBases>
+    <comps>
+        <li Class="VFECore.CompProperties_Shield">
+            <!--<shieldTags Inherit="False">
+                <li>PLACEHOLDER</li>
+            </shieldTags>-->
+            <useDeflectMetalEffect>false</useDeflectMetalEffect>
+            <offHandGraphicData Inherit="False">
+                <texPath>Things/Pawn/Humanlike/Apparel/RF_HeraldicHeaterShield_Doyle</texPath>
+                <graphicClass>Graphic_Multi</graphicClass>
+                <shaderType>CutoutComplex</shaderType>
+                <drawSize>1.5</drawSize>
+            </offHandGraphicData>
+            <coveredBodyPartGroups>
+                <li>Torso</li>
+                <li>Arms</li>
+                <li>Hands</li>
+            </coveredBodyPartGroups>
+            <offHandHoldOffset>
+                <northDefault>
+                    <offset>(0, 0, 0.2)</offset>
+                    <behind>true</behind>
+                </northDefault>
+                <east>
+                    <offset>(-0.05, 0, 0.2)</offset>
+                    <behind>true</behind>
+                </east>
+                <south>
+                    <offset>(0, -0.04, 0.2)</offset>
+                </south>
+                <west>
+                    <offset>(0.05, 0, 0.2)</offset>
+                </west>
+            </offHandHoldOffset>
+        </li>
+    </comps>
+    <thingCategories>
+      <li>DankPyon_Shields</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+          <li>Torso</li>
+          <li>Arms</li>
+          <li>Hands</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/RF_HeraldicHeaterShield_Doyle</wornGraphicPath>
+      <!--<useWornGraphicMask>true</useWornGraphicMask>-->
+      <layers>
+        <li>VFEC_OuterShell</li>
+      </layers>
+      <!--<tags>
+        <li>DankPyon_PLACEHOLDER</li>
+      </tags>-->
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <!--<colorGenerator Class="ColorGenerator_StandardApparel" />-->
+  </ThingDef>
+
+</Defs>

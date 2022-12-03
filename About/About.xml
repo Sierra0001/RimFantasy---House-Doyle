@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RimFantasy - House Doyle</name>
+	<author>Sierra</author>
+	<packageId>Sierra.RF.HouseDoyle</packageId>
+	<url></url>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>Sierra.RF.MedievalOverhaul</li>
+	</loadAfter>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>DankPyon.Medieval.Overhaul</packageId>
+      <displayName>Medieval Overhaul</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2553700067</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Sierra.RF.MedievalOverhaul</packageId>
+      <displayName>RimFantasy - Medieval Overhaul Edition</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2836791007</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+	<incompatibleWith>
+		<li>Sierra.RF.Gemstones</li>
+	</incompatibleWith>
+	<description>
+[h1]Mod Version: v1.0[/h1]
+[h1][i]This version of RimFantasy has been reworked and rebalanced to adhere to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2553700067]Medieval Overhaul[/url] standards. It is no longer modular and contains new/altered/removed content.[/i][/h1]
+
+
+For the longest time, civilizations dismissed magic as wild fantasies and superstitious tribal beliefs. That is until one day, an incident occurred in a gemstone mine, which led to the discovery that gemstones have a natural affinity with magic, and could be imbued with magical energies to produce spectacular effects.
+
+Since then, the value of gemstones reached unimaginable heights and can be commonly found in the most prosperous cities and in the hands of the most skilled warriors.
+
+
+[b]Features:[/b]
+[list]
+[*]Magical weapons with powers.
+[*]Magical furniture for lighting areas.
+[*]Magical furniture for regulating temperature.
+[*]Magical defences for protecting colonies.
+[/list]
+
+
+[b]Recommended Mods:[/b]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2553700067]Medieval Overhaul[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2646321064]Medieval Empire Overhaul[/url]
+- [i]Requires Medieval Overhaul. Changes Empire faction from Spacer to Medieval.[/i]
+
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2836791007]RimFantasy - Medieval Overhaul Edition[/url]
+
+
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1916352291]RimTraits - Medieval Talent[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2206957172]RimTraits - General Traits[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2244594116]RimTraits - Vanilla Trait Colors[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2595980371]Milkshakes - Digital Deluxe Edition[/url]
+[/list]
+
+
+[b]Compatibility:[/b]
+[list]
+[*]Save Game Compatible
+[*][b][Incompatible - RimFantasy (Original Series)][/b] The Medieval Overhaul Edition supersedes the original series for usage with Medieval Overhaul. Will cause game breaking issues if used together.
+[*][b][Moderate Incompatibility - Simple Sidearms][/b] Overrides the way bladelink weapons work and breaks the no-bond mechanics of arcane weapons. "Allow use of blocked weapons" can be turned on in settings as a workaround.
+[/list]
+
+
+[url=https://ko-fi.com/sierra0001][img]https://i.imgur.com/SBiUpbW.png[/img][/url]
+
+
+[h1]Credits:[/h1]
+[list]
+[*]SirLalaPyon for their amazing, high quality vanilla styled art.
+[*]Taranchuk for their C# code magic that allows for various fancy features.
+[*]Brrainz for their contributions to the modding community.
+[*]Oskar/Vanilla Expanded team for the framework.
+[*]Steve for their contributions that helped to shape RimFantasy the mod it is today.
+[/list]
+
+
+(CC BY-NC-ND 4.0)
+
+
+[h1]Troubleshooting &#38; Bug Reports:[/h1]
+Join the Discord (link below) for troubleshooting and bug reports. Steam is a terrible platform for support and I will not be using it to deal with anything longer than a simple answer.
+[h1][url=https://discord.gg/rimworld][img]https://i.imgur.com/Y2Bdoia.gif[/img][/url][/h1]
+
+
+[h1]Latest Changes:[/h1]
+[b]v1.1[/b]
+[list]
+[*][Release] Initial Release.
+[/list]
+	</description>
+</ModMetaData>

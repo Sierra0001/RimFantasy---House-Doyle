@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ===== Rnaged ===== -->
+
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>RF_RangedWeapon_Greatbow_Doyle</defName>
+    <label>greatbow (Doyle)</label>
+    <description>A powerful greatbow. Fires a heavy arrow long distances. \n\nThis weapon is created using a technique known only to a select few and carries the colours of house Doyle.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/RF_RangedWeapon_Greatbow_Doyle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>Bow_Large</soundInteract>
+    <costList>
+      <WoodLog>60</WoodLog>
+      <RF_Amethyst>1</RF_Amethyst>
+    </costList>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>3.0</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <!--<weaponTags>
+      <li>NeolithicRangedHeavy</li>
+      <li>NeolithicRangedChief</li>
+    </weaponTags>-->
+    <weaponClasses>
+      <li>Ranged</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Arrow_Great</defaultProjectile>
+        <warmupTime>2.0</warmupTime>
+        <range>29.9</range>
+        <soundCast>Bow_Large</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <researchPrerequisite>Greatbow</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <!--<displayPriority>101</displayPriority>-->
+    </recipeMaker>
+    <rotateInShelves>false</rotateInShelves>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>RF_RangedWeapon_WarBow_Doyle</defName>
+    <label>war bow (Doyle)</label>
+    <description>A long bow carved from beautiful yew with tips steamed to provide slight bend and painted to keep the bow from shattering under stress—and the bow indeed experiences stress as the long body allows the hemp strand to pull further and with more tension. This helps arrows fly further and better penetrate surfaces, making the war bow a deadly weapon for combat. \n\nThis weapon is created using a technique known only to a select few and carries the colours of house Doyle.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/RF_RangedWeapon_WarBow_Doyle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.25,1.25)</drawSize>
+    </graphicData>
+    <soundInteract>Bow_Large</soundInteract>
+    <costList>
+      <WoodLog>70</WoodLog>
+      <RF_Amethyst>2</RF_Amethyst>
+    </costList>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <WorkToMake>11500</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.89</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
+    </statBases>
+    <!--<weaponTags>
+      <li>NeolithicRangedHeavy</li>
+      <li>NeolithicRangedChief</li>
+    </weaponTags>-->
+    <weaponClasses>
+      <li>Ranged</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>DankPyon_Arrow_War</defaultProjectile>
+        <warmupTime>2.2</warmupTime>
+        <range>31</range>
+        <soundCast>Bow_Large</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DankPyon_Workbench</li>
+      </recipeUsers>
+      <researchPrerequisite>DankPyon_WarBow</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <!--<displayPriority>101</displayPriority>-->
+    </recipeMaker>
+    <rotateInShelves>false</rotateInShelves>
+  </ThingDef>
+
+</Defs>

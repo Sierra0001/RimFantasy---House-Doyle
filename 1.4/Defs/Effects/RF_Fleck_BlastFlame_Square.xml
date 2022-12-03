@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FleckDef ParentName="FleckBase">
+    <defName>RF_Fleck_BlastAmethyst_Square</defName>
+    <graphicData>
+      <texPath>Things/Mote/RF_Fleck_BlastAmethyst_Square</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <solidTime>0</solidTime>
+    <fadeOutTime>0.4</fadeOutTime>
+  </FleckDef>
+
+</Defs>
