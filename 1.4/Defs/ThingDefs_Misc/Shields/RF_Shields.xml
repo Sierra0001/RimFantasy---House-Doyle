@@ -75,9 +75,9 @@
             </offHandHoldOffset>
         </li>
     </comps>
-    <thingCategories>
+    <!--<thingCategories>
       <li>DankPyon_Shields</li>
-    </thingCategories>
+    </thingCategories>-->
     <apparel>
       <bodyPartGroups>
           <li>Torso</li>

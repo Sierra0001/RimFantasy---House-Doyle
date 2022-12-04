@@ -152,7 +152,7 @@
         <drawSize>1.25</drawSize>
       </graphicData>
       <costList>
-          <DankPyon_Amethyst>55</DankPyon_Amethyst>
+          <RF_Amethyst>55</RF_Amethyst>
       </costList>
       <comps>
         <li Class="RimFantasy.CompProperties_GlowerStuffable">
