@@ -40,24 +40,21 @@
 				<minWeaponTraits>1</minWeaponTraits>
 				<maxWeaponTraits>2</maxWeaponTraits>
           <weaponTraitsPool>
-					<li>RF_MinorBlaze_Amethyst</li>
-					<li>RF_Blaze_Amethyst</li>
-					<li>RF_MajorBlaze_Amethyst</li>
-					<li>RF_MinorShock_Amethyst</li>
-					<li>RF_Shock_Amethyst</li>
-					<li>RF_MajorShock_Amethyst</li>
-					<li>RF_MinorDrain_Amethyst</li>
-					<li>RF_Drain_Amethyst</li>
-					<li>RF_MajorDrain_Amethyst</li>
-					<li>RF_MinorWarriorsShield</li>
-					<li>RF_WarriorsShield</li>
-					<li>RF_MajorWarriorsShield</li>
+	          <li>RF_MinorBlaze_Amethyst</li>
+	          <li>RF_Blaze_Amethyst</li>
+	          <li>RF_MajorBlaze_Amethyst</li>
+	          <li>RF_MinorShock_Amethyst</li>
+	          <li>RF_Shock_Amethyst</li>
+	          <li>RF_MajorShock_Amethyst</li>
+	          <li>RF_MinorWarriorsShield</li>
+	          <li>RF_WarriorsShield</li>
+	          <li>RF_MajorWarriorsShield</li>
             <li>RF_MinorMagicBlast_Amethyst</li>
             <li>RF_MagicBlast_Amethyst</li>
             <li>RF_MajorMagicBlast_Amethyst</li>
-  					<li>RF_MinorDrain</li>
-  					<li>RF_Drain</li>
-  					<li>RF_MajorDrain</li>
+            <li>RF_MinorDrain</li>
+            <li>RF_Drain</li>
+            <li>RF_MajorDrain</li>
           </weaponTraitsPool>
         </li>
       </comps>
@@ -111,24 +108,24 @@
 				<minWeaponTraits>1</minWeaponTraits>
 				<maxWeaponTraits>2</maxWeaponTraits>
           <weaponTraitsPool>
-					<li>RF_MinorBlaze_Amethyst</li>
-					<li>RF_Blaze_Amethyst</li>
-					<li>RF_MajorBlaze_Amethyst</li>
-					<li>RF_MinorShock_Amethyst</li>
-					<li>RF_Shock_Amethyst</li>
-					<li>RF_MajorShock_Amethyst</li>
-					<li>RF_MinorSlash_Longsword_Amethyst</li>
-					<li>RF_Slash_Longsword_Amethyst</li>
-					<li>RF_MajorSlash_Longsword_Amethyst</li>
-					<li>RF_MinorWarriorsShield</li>
-					<li>RF_WarriorsShield</li>
-					<li>RF_MajorWarriorsShield</li>
+	          <li>RF_MinorBlaze_Amethyst</li>
+	          <li>RF_Blaze_Amethyst</li>
+	          <li>RF_MajorBlaze_Amethyst</li>
+	          <li>RF_MinorShock_Amethyst</li>
+	          <li>RF_Shock_Amethyst</li>
+	          <li>RF_MajorShock_Amethyst</li>
+	          <li>RF_MinorSlash_Longsword_Amethyst</li>
+	          <li>RF_Slash_Longsword_Amethyst</li>
+	          <li>RF_MajorSlash_Longsword_Amethyst</li>
+	          <li>RF_MinorWarriorsShield</li>
+	          <li>RF_WarriorsShield</li>
+	          <li>RF_MajorWarriorsShield</li>
             <li>RF_MinorMagicBlast_Amethyst</li>
             <li>RF_MagicBlast_Amethyst</li>
             <li>RF_MajorMagicBlast_Amethyst</li>
-  					<li>RF_MinorDrain</li>
-  					<li>RF_Drain</li>
-  					<li>RF_MajorDrain</li>
+            <li>RF_MinorDrain</li>
+            <li>RF_Drain</li>
+            <li>RF_MajorDrain</li>
           </weaponTraitsPool>
         </li>
       </comps>
@@ -149,7 +146,7 @@
       <defName>RF_AmethystBattleAxe</defName>
       <label>amethyst battle axe</label>
       <graphicData>
-        <texPath>Things/Item/Equipment/WeaponMelee/RF_AmethystBattleAxer</texPath>
+        <texPath>Things/Item/Equipment/WeaponMelee/RF_AmethystBattleAxe</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         <shaderType>TransparentPostLight</shaderType>
         <drawSize>1.25</drawSize>
@@ -182,24 +179,24 @@
 				<minWeaponTraits>1</minWeaponTraits>
 				<maxWeaponTraits>2</maxWeaponTraits>
           <weaponTraitsPool>
-					<li>RF_MinorBlaze_Amethyst</li>
-					<li>RF_Blaze_Amethyst</li>
-					<li>RF_MajorBlaze_Amethyst</li>
-					<li>RF_MinorShock_Amethyst</li>
-					<li>RF_Shock_Amethyst</li>
-					<li>RF_MajorShock_Amethyst</li>
-					<li>RF_MinorSlash_BattleAxe_Amethyst</li>
-					<li>RF_Slash_BattleAxe_Amethyst</li>
-					<li>RF_MajorSlash_BattleAxe_Amethyst</li>
-					<li>RF_MinorWarriorsShield</li>
-					<li>RF_WarriorsShield</li>
-					<li>RF_MajorWarriorsShield</li>
+	          <li>RF_MinorBlaze_Amethyst</li>
+	          <li>RF_Blaze_Amethyst</li>
+	          <li>RF_MajorBlaze_Amethyst</li>
+	          <li>RF_MinorShock_Amethyst</li>
+	          <li>RF_Shock_Amethyst</li>
+	          <li>RF_MajorShock_Amethyst</li>
+	          <li>RF_MinorSlash_BattleAxe_Amethyst</li>
+	          <li>RF_Slash_BattleAxe_Amethyst</li>
+	          <li>RF_MajorSlash_BattleAxe_Amethyst</li>
+	          <li>RF_MinorWarriorsShield</li>
+	          <li>RF_WarriorsShield</li>
+	          <li>RF_MajorWarriorsShield</li>
             <li>RF_MinorMagicBlast_Amethyst</li>
             <li>RF_MagicBlast_Amethyst</li>
             <li>RF_MajorMagicBlast_Amethyst</li>
-  					<li>RF_MinorDrain</li>
-  					<li>RF_Drain</li>
-  					<li>RF_MajorDrain</li>
+            <li>RF_MinorDrain</li>
+            <li>RF_Drain</li>
+            <li>RF_MajorDrain</li>
           </weaponTraitsPool>
         </li>
       </comps>
@@ -258,7 +255,7 @@
 					  <li>RF_MajorShock_Amethyst</li>
 					  <li>RF_MinorSlash_Amethyst</li>
 			      <li>RF_Slash_Amethyst</li>
-	          <li>RF_MajorSlash_Amethyst</li>
+            <li>RF_MajorSlash_Amethyst</li>
 					  <li>RF_MinorSlam_Amethyst</li>
 		        <li>RF_Slam_Amethyst</li>
             <li>RF_MajorSlam_Amethyst</li>
@@ -268,9 +265,9 @@
             <li>RF_MinorMagicBlast_Amethyst</li>
             <li>RF_MagicBlast_Amethyst</li>
             <li>RF_MajorMagicBlast_Amethyst</li>
-  					<li>RF_MinorDrain</li>
-  					<li>RF_Drain</li>
-  					<li>RF_MajorDrain</li>
+            <li>RF_MinorDrain</li>
+            <li>RF_Drain</li>
+            <li>RF_MajorDrain</li>
           </weaponTraitsPool>
         </li>
       </comps>
@@ -324,24 +321,24 @@
 				<minWeaponTraits>1</minWeaponTraits>
 				<maxWeaponTraits>2</maxWeaponTraits>
           <weaponTraitsPool>
-					<li>RF_MinorBlaze_Amethyst</li>
-					<li>RF_Blaze_Amethyst</li>
-					<li>RF_MajorBlaze_Amethyst</li>
-					<li>RF_MinorShock_Amethyst</li>
-					<li>RF_Shock_Amethyst</li>
-					<li>RF_MajorShock_Amethyst</li>
-					<li>RF_MinorSlow_Amethyst</li>
-					<li>RF_Slow_Amethyst</li>
-					<li>RF_MajorSlow_Amethyst</li>
-					<li>RF_MinorWarriorsShield</li>
-					<li>RF_WarriorsShield</li>
-					<li>RF_MajorWarriorsShield</li>
+	          <li>RF_MinorBlaze_Amethyst</li>
+	          <li>RF_Blaze_Amethyst</li>
+	          <li>RF_MajorBlaze_Amethyst</li>
+	          <li>RF_MinorShock_Amethyst</li>
+	          <li>RF_Shock_Amethyst</li>
+	          <li>RF_MajorShock_Amethyst</li>
+	          <li>RF_MinorSlow_Amethyst</li>
+	          <li>RF_Slow_Amethyst</li>
+	          <li>RF_MajorSlow_Amethyst</li>
+	          <li>RF_MinorWarriorsShield</li>
+	          <li>RF_WarriorsShield</li>
+	          <li>RF_MajorWarriorsShield</li>
             <li>RF_MinorMagicBlast_Amethyst</li>
             <li>RF_MagicBlast_Amethyst</li>
             <li>RF_MajorMagicBlast_Amethyst</li>
-  					<li>RF_MinorDrain</li>
-  					<li>RF_Drain</li>
-  					<li>RF_MajorDrain</li>
+            <li>RF_MinorDrain</li>
+            <li>RF_Drain</li>
+            <li>RF_MajorDrain</li>
           </weaponTraitsPool>
         </li>
       </comps>
@@ -358,7 +355,7 @@
 
   <!--========== Amethyst Halberd ==========-->
 
-  <!--<ThingDef ParentName="RF_BaseWeapon_ArcaneHalberd">
+  <ThingDef ParentName="RF_BaseWeapon_ArcaneHalberds">
       <defName>RF_AmethystHalberd</defName>
       <label>amethyst halberd</label>
       <graphicData>
@@ -373,7 +370,7 @@
       <comps>
         <li Class="RimFantasy.CompProperties_GlowerStuffable">
           <glowRadius>1</glowRadius>
-          <glowColor>(115,65,165)</glowColor>
+          <glowColor>(137,24,132)</glowColor>
           <glowWhileOnGround>true</glowWhileOnGround>
           <glowWhileStockpiled>true</glowWhileStockpiled>
           <glowWhileEquipped>true</glowWhileEquipped>
@@ -395,18 +392,18 @@
         <minWeaponTraits>1</minWeaponTraits>
         <maxWeaponTraits>2</maxWeaponTraits>
           <weaponTraitsPool>
-          <li>RF_MinorBlaze_Amethyst</li>
-          <li>RF_Blaze_Amethyst</li>
-          <li>RF_MajorBlaze_Amethyst</li>
-          <li>RF_MinorShock_Amethyst</li>
-          <li>RF_Shock_Amethyst</li>
-          <li>RF_MajorShock_Amethyst</li>
-          <li>RF_MinorSlow_Amethyst</li>
-          <li>RF_Slow_Amethyst</li>
-          <li>RF_MajorSlow_Amethyst</li>
-          <li>RF_MinorWarriorsShield</li>
-          <li>RF_WarriorsShield</li>
-          <li>RF_MajorWarriorsShield</li>
+            <li>RF_MinorBlaze_Amethyst</li>
+            <li>RF_Blaze_Amethyst</li>
+            <li>RF_MajorBlaze_Amethyst</li>
+            <li>RF_MinorShock_Amethyst</li>
+            <li>RF_Shock_Amethyst</li>
+            <li>RF_MajorShock_Amethyst</li>
+            <li>RF_MinorSlow_Amethyst</li>
+            <li>RF_Slow_Amethyst</li>
+            <li>RF_MajorSlow_Amethyst</li>
+            <li>RF_MinorWarriorsShield</li>
+            <li>RF_WarriorsShield</li>
+            <li>RF_MajorWarriorsShield</li>
             <li>RF_MinorMagicBlast_Amethyst</li>
             <li>RF_MagicBlast_Amethyst</li>
             <li>RF_MajorMagicBlast_Amethyst</li>
@@ -425,6 +422,6 @@
           <preventDroppingWhenDead>true</preventDroppingWhenDead>
         </li>
       </modExtensions>
-  </ThingDef>-->
+  </ThingDef>
 
 </Defs>
