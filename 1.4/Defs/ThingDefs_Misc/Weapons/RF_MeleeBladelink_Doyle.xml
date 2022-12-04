@@ -10,7 +10,7 @@
         <texPath>Things/Item/Equipment/WeaponMelee/RF_AmethystDagger</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         <shaderType>TransparentPostLight</shaderType>
-        <drawSize>1.25</drawSize>
+        <drawSize>1</drawSize>
       </graphicData>
       <costList>
         <RF_Amethyst>55</RF_Amethyst>
@@ -78,7 +78,7 @@
         <texPath>Things/Item/Equipment/WeaponMelee/RF_AmethystLongsword</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         <shaderType>TransparentPostLight</shaderType>
-        <drawSize>1.25</drawSize>
+        <drawSize>1</drawSize>
       </graphicData>
       <costList>
         <RF_Amethyst>55</RF_Amethyst>
@@ -149,7 +149,7 @@
         <texPath>Things/Item/Equipment/WeaponMelee/RF_AmethystBattleAxe</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         <shaderType>TransparentPostLight</shaderType>
-        <drawSize>1.25</drawSize>
+        <drawSize>1.05</drawSize>
       </graphicData>
       <costList>
           <RF_Amethyst>55</RF_Amethyst>
@@ -220,7 +220,7 @@
         <texPath>Things/Item/Equipment/WeaponMelee/RF_AmethystWarHammer</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         <shaderType>TransparentPostLight</shaderType>
-        <drawSize>1.25</drawSize>
+        <drawSize>1</drawSize>
       </graphicData>
       <costList>
         <RF_Amethyst>55</RF_Amethyst>
@@ -291,7 +291,7 @@
         <texPath>Things/Item/Equipment/WeaponMelee/RF_AmethystSpear</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         <shaderType>TransparentPostLight</shaderType>
-        <drawSize>1.25</drawSize>
+        <drawSize>1.15</drawSize>
       </graphicData>
       <costList>
         <RF_Amethyst>55</RF_Amethyst>
@@ -362,7 +362,7 @@
         <texPath>Things/Item/Equipment/WeaponMelee/RF_AmethystHalberd</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         <shaderType>TransparentPostLight</shaderType>
-        <drawSize>1.25</drawSize>
+        <drawSize>1.5</drawSize>
       </graphicData>
       <costList>
         <RF_Amethyst>55</RF_Amethyst>

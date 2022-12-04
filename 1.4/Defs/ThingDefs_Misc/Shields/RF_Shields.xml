@@ -84,7 +84,7 @@
           <li>Arms</li>
           <li>Hands</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/RF_HeraldicHeaterShield_Doyle</wornGraphicPath>
+      <!--<wornGraphicPath>Things/Pawn/Humanlike/Apparel/RF_HeraldicHeaterShield_Doyle</wornGraphicPath>-->
       <!--<useWornGraphicMask>true</useWornGraphicMask>-->
       <layers>
         <li>VFEC_OuterShell</li>

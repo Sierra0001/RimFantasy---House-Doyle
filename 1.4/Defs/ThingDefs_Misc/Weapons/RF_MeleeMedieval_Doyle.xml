@@ -23,7 +23,7 @@
       <WorkToMake>14500</WorkToMake>
       <Mass>1.25</Mass>
     </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
+    <equippedAngleOffset>-20</equippedAngleOffset>
     <recipeMaker>
       <researchPrerequisite>DankPyon_MilitaryBlades</researchPrerequisite>
       <skillRequirements>

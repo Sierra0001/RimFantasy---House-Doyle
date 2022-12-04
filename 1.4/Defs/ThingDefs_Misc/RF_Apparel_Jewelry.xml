@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef>
+    <defName>RF_Apparel_Necklace_Amethyst</defName>
+    <label>amethyst necklace</label>
+    <description>A lovingly crafted amethyst necklace favored amongst minor nobles for its beauty and relatively affordable price.</description>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+        <Artistic>3</Artistic>
+      </skillRequirements>
+      <researchPrerequisite>DankPyon_Jewelry</researchPrerequisite>
+      <recipeUsers>
+        <li>DankPyon_JewelryBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/RF_AmethystNecklace</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+    <costList>
+      <RF_Amethyst>25</RF_Amethyst>
+    </costList>
+    <statBases>
+      <WorkToMake>10750</WorkToMake>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>0.50</Mass>
+      <Flammability>0</Flammability>
+      <EquipDelay>0.5</EquipDelay>
+      <Beauty>9</Beauty>
+    </statBases>
+    <equippedStatOffsets>
+      <PawnBeauty>+1</PawnBeauty>
+      <SocialImpact>0.1</SocialImpact>
+      <TradePriceImprovement>0.05</TradePriceImprovement>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>DankPyon_ApparelJewelry</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <layers>
+          <li>DankPyon_NecklaceLayer</li>
+      </layers>
+      <tags>
+          <li>Royal</li>
+          <li>DankPyon_Necklaces</li>
+      </tags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+    <tradeTags>
+      <li>DankPyon_Necklaces</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef>
+    <defName>RF_Apparel_Ring_Amethyst</defName>
+    <label>amethyst ring</label>
+    <description>A lovingly crafted amethyst ring favored amongst minor nobles for its beauty and relatively affordable price.</description>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+        <Artistic>3</Artistic>
+      </skillRequirements>
+      <researchPrerequisite>DankPyon_Jewelry</researchPrerequisite>
+      <recipeUsers>
+        <li>DankPyon_JewelryBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/RF_AmethystRing</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <costList>
+      <RF_Amethyst>25</RF_Amethyst>
+    </costList>
+    <statBases>
+      <WorkToMake>10750</WorkToMake>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>0.25</Mass>
+      <Flammability>0</Flammability>
+      <EquipDelay>0.5</EquipDelay>
+      <Beauty>9</Beauty>
+    </statBases>
+    <equippedStatOffsets>
+      <PawnBeauty>+1</PawnBeauty>
+      <SocialImpact>0.1</SocialImpact>
+      <TradePriceImprovement>0.05</TradePriceImprovement>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>DankPyon_ApparelJewelry</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>MiddleFingers</li>
+      </bodyPartGroups>
+      <layers>
+          <li>DankPyon_Ring1Layer</li>
+      </layers>
+      <tags>
+          <li>Royal</li>
+          <li>DankPyon_Rings</li>
+      </tags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+    <tradeTags>
+      <li>DankPyon_Rings</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>
