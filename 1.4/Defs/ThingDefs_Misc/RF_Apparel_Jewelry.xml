@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef>
+  <ThingDef ParentName="ArmorSmithableBase">
     <defName>RF_Apparel_Necklace_Amethyst</defName>
     <label>amethyst necklace</label>
     <description>A lovingly crafted amethyst necklace favored amongst minor nobles for its beauty and relatively affordable price.</description>
@@ -61,7 +61,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef>
+  <ThingDef ParentName="ArmorSmithableBase">
     <defName>RF_Apparel_Ring_Amethyst</defName>
     <label>amethyst ring</label>
     <description>A lovingly crafted amethyst ring favored amongst minor nobles for its beauty and relatively affordable price.</description>

@@ -10,10 +10,10 @@ House Doyle was a minor noble house credited with advancements in the practical 
 
 ### Features
 
-- Magical weapons with powers.
-- Magical furniture for lighting areas.
-- Magical furniture for regulating temperature.
-- Magical defences for protecting colonies.
+- New resource: Amethyst
+- New amethyst jewelry
+- Player craftable heraldic weapon and armor.
+- New line of Arcane Weapon crafted using Amethyst.
 
 ### Balance
 
