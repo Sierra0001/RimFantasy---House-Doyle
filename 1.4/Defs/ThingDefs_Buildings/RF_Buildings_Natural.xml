@@ -18,9 +18,9 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>RF_Amethyst</mineableThing>
-      <mineableYield>12</mineableYield>
-      <mineableScatterCommonality>0.80</mineableScatterCommonality>
-      <mineableScatterLumpSizeRange>3~5</mineableScatterLumpSizeRange>
+      <mineableYield>11</mineableYield>
+      <mineableScatterCommonality>0.75</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>2~5</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
 
