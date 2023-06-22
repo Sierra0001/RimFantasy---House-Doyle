@@ -13,6 +13,7 @@
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+    <li>DankPyon.Medieval.Overhaul</li>
 		<li>Sierra.RF.MedievalOverhaul</li>
 	</loadAfter>
   <modDependencies>

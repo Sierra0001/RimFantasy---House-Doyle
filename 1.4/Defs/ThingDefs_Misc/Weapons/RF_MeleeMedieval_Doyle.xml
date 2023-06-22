@@ -78,7 +78,6 @@
 	    <shaderType>CutoutComplex</shaderType>
       <drawSize>(1.25,1.25)</drawSize>
     </graphicData>
-    <uiIconScale>1.2</uiIconScale>
     <techLevel>Medieval</techLevel>
     <costStuffCount>150</costStuffCount>
     <costList>
@@ -88,7 +87,6 @@
       <WorkToMake>24000</WorkToMake>
       <Mass>3</Mass>
     </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
     <recipeMaker>
       <researchPrerequisite>LongBlades</researchPrerequisite>
       <skillRequirements>
@@ -200,7 +198,7 @@
       <texPath>Things/Item/Equipment/WeaponMelee/RF_MeleeWeapon_Longaxe_Doyle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
-      <drawSize>(1.5,1.5)</drawSize>
+      <drawSize>(2,2)</drawSize>
     </graphicData>
     <uiIconScale>1.2</uiIconScale>
     <techLevel>Medieval</techLevel>
@@ -213,7 +211,6 @@
       <WorkToMake>16000</WorkToMake>
       <Mass>2.75</Mass>
     </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
     <recipeMaker>
       <researchPrerequisite>DankPyon_MilitaryBlades</researchPrerequisite>
       <skillRequirements>
@@ -455,7 +452,7 @@
       <texPath>Things/Item/Equipment/WeaponMelee/RF_MeleeWeapon_Polehammer_Doyle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-		  <drawSize>(1.5,1.5)</drawSize>
+		  <drawSize>(2,2)</drawSize>
     </graphicData>
     <uiIconScale>1.2</uiIconScale>
     <techLevel>Medieval</techLevel>
@@ -468,7 +465,6 @@
       <WorkToMake>16000</WorkToMake>
       <Mass>2.75</Mass>
     </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
     <recipeMaker>
       <researchPrerequisite>DankPyon_MilitaryMaces</researchPrerequisite>
       <skillRequirements>
@@ -519,6 +515,7 @@
       <texPath>Things/Item/Equipment/WeaponMelee/RF_MeleeWeapon_FightingSpear_Doyle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.31,1.31)</drawSize>
     </graphicData>
     <uiIconScale>1.2</uiIconScale>
     <techLevel>Medieval</techLevel>
@@ -531,7 +528,6 @@
       <WorkToMake>16000</WorkToMake>
       <Mass>3</Mass>
     </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
     <recipeMaker>
       <researchPrerequisite>DankPyon_NoblePolearms</researchPrerequisite>
       <skillRequirements>
@@ -599,7 +595,6 @@
       <WorkToMake>15000</WorkToMake>
       <Mass>2.75</Mass>
     </statBases>
-    <equippedAngleOffset>-65</equippedAngleOffset>
     <recipeMaker>
       <researchPrerequisite>DankPyon_MilitaryPolearms</researchPrerequisite>
       <skillRequirements>

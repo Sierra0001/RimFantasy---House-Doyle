@@ -301,7 +301,7 @@
           <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>TransparentPostLight</shaderType>
-            <texPath>Things/Item/Equipment/WeaponRanged/RF_ArcaneRings/RF_AmethystRing</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/RF_AmethystRing</texPath>
             <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
             <drawSize>0.55</drawSize>
           </graphicData>
