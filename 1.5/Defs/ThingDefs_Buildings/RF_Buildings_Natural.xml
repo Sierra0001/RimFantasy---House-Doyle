@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="RockBase">
+    <defName>RF_MineableAmethyst</defName>
+    <label>amethyst</label>
+    <description>A hard, purple stone. Often used for ornaments and decorations despite its status as a more common gemstone. Its true value lies in its ability to hold a tremendous amount of magical energy and is a popular material in arcane recipes.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(137,24,132)</color>
+      <colorTwo>(183,52,180)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>RF_Amethyst</mineableThing>
+      <mineableYield>11</mineableYield>
+      <mineableScatterCommonality>0.75</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>2~5</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+</Defs>

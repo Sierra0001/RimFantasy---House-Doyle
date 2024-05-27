@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>RF_Banner_Doyle</defName>
+    <label>banner (doyle)</label>
+    <description>A banner to display the colors of House Doyle. Gives mood bonus to anyone nearby.</description>
+    <designationCategory>Furniture</designationCategory>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>750</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>20</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <costList>
+      <Cloth>40</Cloth>
+    </costList>
+    <canOverlapZones>true</canOverlapZones>
+    <pathCost>0</pathCost>
+    <rotatable>false</rotatable>
+    <uiIconScale>0.5</uiIconScale>
+    <graphicData>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0.2)</drawOffset>
+      <texPath>Things/Building/Furniture/RF_Banner_Doyle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.3, 0.5, 0.3)</volume>
+        <offset>(0,0,-0.23)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>RF_Banner_Arcane</defName>
+    <label>banner (arcane)</label>
+    <description>A banner to display the colors of House Doyle. Gives mood bonus to anyone nearby.</description>
+    <designationCategory>Furniture</designationCategory>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>750</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>20</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <costList>
+      <Cloth>40</Cloth>
+    </costList>
+    <canOverlapZones>true</canOverlapZones>
+    <pathCost>0</pathCost>
+    <rotatable>false</rotatable>
+    <uiIconScale>0.5</uiIconScale>
+    <graphicData>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0.2)</drawOffset>
+      <texPath>Things/Building/Furniture/RF_Banner_Arcane</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.3, 0.5, 0.3)</volume>
+        <offset>(0,0,-0.23)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+  </ThingDef>
+
+</Defs>
