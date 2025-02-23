@@ -44,7 +44,7 @@
 		<li>Sierra.RF.Gemstones</li>
 	</incompatibleWith>
 	<description>
-[h1]Mod Version: v1.1[/h1]
+[h1]Mod Version: v1.2.1[/h1]
 [h1][i]This version of RimFantasy has been reworked and rebalanced to adhere to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2553700067]Medieval Overhaul[/url] standards. It is no longer modular and contains new/altered/removed content.[/i][/h1]
 
 
@@ -60,6 +60,7 @@ House Doyle was a minor noble house credited with advancements in the practical 
 [*]New amethyst jewelry
 [*]Player craftable heraldic weapon and armor.
 [*]New line of Arcane Weapon crafted using Amethyst.
+[*]New arcane weapons that can only be obtained from explorations.
 [/list]
 
 
@@ -109,6 +110,17 @@ Join the Discord (link below) for troubleshooting and bug reports. Steam is a te
 [b]v1.1[/b]
 [list]
 [*][RimWorld 1.5] RimWorld 1.5 Ready.
+[/list]
+
+[b]v1.2[/b]
+[list]
+[*][New] Added arcane weapons that can only be obtained from explorations.
+[/list]
+
+[b]v1.2.1[/b]
+[list]
+[*][DEV] Mandatory update to weapon defs following recent update in Medieval Overhaul.
+[*][DEV] All House Doyle weapons now have weaponTags.
 [/list]
 	</description>
 </ModMetaData>

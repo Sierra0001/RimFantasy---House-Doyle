@@ -34,9 +34,9 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <!--<weaponTags>
-      <li>MedievalMeleeDecent</li>
-    </weaponTags>-->
+    <weaponTags>
+      <li>RF_ArmingSword_Doyle</li>
+    </weaponTags>
     <weaponClasses>
       <li>Melee</li>
     </weaponClasses>
@@ -97,9 +97,9 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <!--<weaponTags>
-      <li>MedievalMeleeAdvanced</li>
-    </weaponTags>-->
+    <weaponTags>
+      <li>RF_Greatsword_Doyle</li>
+    </weaponTags>
     <weaponClasses>
       <li>Melee</li>
     </weaponClasses>
@@ -156,9 +156,9 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <!--<weaponTags>
-      <li>MedievalMeleeAdvanced</li>
-    </weaponTags>-->
+    <weaponTags>
+      <li>RF_FightingAxe_Doyle</li>
+    </weaponTags>
     <weaponClasses>
       <li>Melee</li>
     </weaponClasses>
@@ -221,9 +221,9 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <!--<weaponTags>
-      <li>MedievalMeleeDecent</li>
-    </weaponTags>-->
+    <weaponTags>
+      <li>RF_Longaxe_Doyle</li>
+    </weaponTags>
     <weaponClasses>
       <li>Melee</li>
     </weaponClasses>
@@ -285,9 +285,9 @@
       <li>Metallic</li>
       <li>Woody</li>
     </stuffCategories>
-    <!--<weaponTags>
-      <li>MedievalMeleeDecent</li>
-    </weaponTags>-->
+    <weaponTags>
+      <li>RF_MorningStar_Doyle</li>
+    </weaponTags>
     <weaponClasses>
       <li>Melee</li>
     </weaponClasses>
@@ -349,9 +349,9 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <!--<weaponTags>
-      <li>MedievalMeleeAdvanced</li>
-    </weaponTags>-->
+    <weaponTags>
+      <li>RF_TwoHandedFlangedMace_Doyle</li>
+    </weaponTags>
     <weaponClasses>
       <li>Melee</li>
     </weaponClasses>
@@ -410,9 +410,9 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <!--<weaponTags>
-      <li>MedievalMeleeAdvanced</li>
-    </weaponTags>-->
+    <weaponTags>
+      <li>RF_Warhammer_Doyle</li>
+    </weaponTags>
     <weaponClasses>
       <li>Melee</li>
     </weaponClasses>
@@ -475,9 +475,9 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <!--<weaponTags>
-      <li>MedievalMeleeDecent</li>
-    </weaponTags>-->
+    <weaponTags>
+      <li>RF_Polehammer_Doyle</li>
+    </weaponTags>
     <weaponClasses>
       <li>Melee</li>
     </weaponClasses>
@@ -506,7 +506,7 @@
 
   <!-- ===== Polearms ===== -->
 
-  <ThingDef ParentName="DankPyon_Base_Sharp_NormalSize">
+  <ThingDef ParentName="DankPyon_Base_SharpSpear_NormalSize">
     <defName>RF_MeleeWeapon_FightingSpear_Doyle</defName>
     <label>fighting spear (Doyle)</label>
     <description>A spear most effective for combat, the fighting spear is long and sturdy to help frontlines maintain their spear wall. Borrowing the wing design from the boar spear, the fighting spear also features two protruding points, which can help stop enemy swings. \n\nThis weapon is forged using a technique known only to a select few and carries the colours of house Doyle.</description>
@@ -538,9 +538,9 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <!--<weaponTags>
-      <li>MedievalMeleeAdvanced</li>
-    </weaponTags>-->
+    <weaponTags>
+      <li>RF_FightingSpear_Doyle</li>
+    </weaponTags>
     <weaponClasses>
       <li>Melee</li>
     </weaponClasses>
@@ -572,7 +572,7 @@
     </modExtensions>
   </ThingDef>
 
-  <ThingDef ParentName="DankPyon_Base_Sharp_Oversize">
+  <ThingDef ParentName="DankPyon_Base_SharpSpear_Oversize">
     <defName>RF_MeleeWeapon_Pike_Doyle</defName>
     <label>pike (Doyle)</label>
     <description>Unlike the spear, pikes must be wielded with both hands to be effective. This allows pike-users to impale enemies at a distance, making pikemen feared warriors even from the backline. \n\n This pike carries the colors of house Doyle.</description>
@@ -605,9 +605,9 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <!--<weaponTags>
-      <li>MedievalMeleeDecent</li>
-    </weaponTags>-->
+    <weaponTags>
+      <li>RF_Pike_Doyle</li>
+    </weaponTags>
     <weaponClasses>
       <li>Melee</li>
     </weaponClasses>

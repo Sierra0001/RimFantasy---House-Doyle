@@ -28,10 +28,9 @@
       <AccuracyLong>0.50</AccuracyLong>
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
-    <!--<weaponTags>
-      <li>NeolithicRangedHeavy</li>
-      <li>NeolithicRangedChief</li>
-    </weaponTags>-->
+    <weaponTags>
+      <li>RF_Greatbow_Doyle</li>
+    </weaponTags>
     <weaponClasses>
       <li>Ranged</li>
       <li>RangedHeavy</li>
@@ -96,10 +95,9 @@
       <AccuracyLong>0.60</AccuracyLong>
       <RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
     </statBases>
-    <!--<weaponTags>
-      <li>NeolithicRangedHeavy</li>
-      <li>NeolithicRangedChief</li>
-    </weaponTags>-->
+    <weaponTags>
+      <li>RF_WarBow_Doyle</li>
+    </weaponTags>
     <weaponClasses>
       <li>Ranged</li>
       <li>RangedHeavy</li>

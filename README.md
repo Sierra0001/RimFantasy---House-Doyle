@@ -29,7 +29,7 @@ Bug reports must come with HugsLogs, join the Discord if you don't know how to g
 
 ### Links
 
-- [Current Version](https://github.com/Sierra0001/RimFantasy---House-Doyle/releases/tag/v1.0)
+- [Current Version](https://github.com/Sierra0001/RimFantasy---House-Doyle/releases/tag/v1.2.1)
 - [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=0000000000)
 - [GitHub](https://github.com/Sierra0001/RimFantasy---House-Doyle)
 
@@ -42,5 +42,5 @@ Oskar/Vanilla Expanded team for the framework.
 Steve for their contributions that helped to shape RimFantasy the mod it is today.
 
 ### Latest Changes
-
-- [Release] Initial Realease.
+- [DEV] Mandatory update to weapon defs following recent update in Medieval Overhaul.
+- [DEV] All House Doyle weapons now have weaponTags.

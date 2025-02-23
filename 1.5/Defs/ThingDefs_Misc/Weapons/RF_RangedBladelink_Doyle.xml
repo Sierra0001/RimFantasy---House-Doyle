@@ -15,6 +15,9 @@
       <costList>
         <RF_Amethyst>55</RF_Amethyst>
       </costList>
+      <weaponTags>
+        <li>RF_AmethystWand_Doyle</li>
+      </weaponTags>
       <comps>
         <li Class="RimFantasy.CompProperties_GlowerStuffable">
           <glowRadius>1</glowRadius>
@@ -119,6 +122,9 @@
       <costList>
         <RF_Amethyst>55</RF_Amethyst>
       </costList>
+      <weaponTags>
+        <li>RF_AmethystStaff_Doyle</li>
+      </weaponTags>
       <comps>
         <li Class="RimFantasy.CompProperties_GlowerStuffable">
           <glowRadius>1</glowRadius>
@@ -226,6 +232,9 @@
       <costList>
           <RF_Amethyst>55</RF_Amethyst>
       </costList>
+      <weaponTags>
+        <li>RF_AmethystRing_Doyle</li>
+      </weaponTags>
       <comps>
         <li Class="RimFantasy.CompProperties_GlowerStuffable">
           <glowRadius>1</glowRadius>
@@ -348,6 +357,9 @@
       <costList>
         <RF_Amethyst>55</RF_Amethyst>
       </costList>
+      <weaponTags>
+        <li>RF_AmethystBow_Doyle</li>
+      </weaponTags>
       <comps>
         <li Class="RimFantasy.CompProperties_GlowerStuffable">
           <glowRadius>1</glowRadius>

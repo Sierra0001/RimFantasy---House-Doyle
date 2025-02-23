@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RimFantasy.ArcaneWeaponTraitDef>
+		<defName>RF_EnGarde_Amethyst</defName> <!-- Relic Trait. Slighly more powerful than Major Traits -->
+		<label>en garde</label>
+		<description>Enchanted with a class of battle magic more powerful than the average higher magic, this weapon projects a powerful ward around its wielder and can sometimes unleash a powerful wave of magical energy that damages its target while healing its wielder of any injuries sustained.</description>
+		<workerClass>RimFantasy.ArcaneWeaponTraitWorker</workerClass>
+		<isShield>true</isShield>
+		<shieldRechargeRate>0.09</shieldRechargeRate> <!-- 0.03 higher than RF_MajorWarriorsShield -->
+		<shieldEnergyMax>2.00</shieldEnergyMax> <!-- 0.5 lower than RF_MajorWarriorsShield -->
+		<shieldTexPath>Other/RF_ShieldBubble</shieldTexPath>
+		<shieldTexStuffPostfix>true</shieldTexStuffPostfix>
+		<shieldCombatRecovery>true</shieldCombatRecovery>
+		<ignoreRechargeDelay>false</ignoreRechargeDelay>
+		<deflectMeleeChance>0.95</deflectMeleeChance> <!-- 0.05 higher than RF_MajorWarriorsShield -->
+		<deflectRangeChance>0.65</deflectRangeChance> <!-- 0.05 higher than RF_MajorWarriorsShield -->
+		<weaponEffects>
+			<li Class="RimFantasy.WeaponEffect_Multiple">
+				<effectChance>0.35</effectChance>
+				<weaponEffects>
+					<li Class="RimFantasy.WeaponEffect_Drain">
+						<hpToDrain>3~5</hpToDrain> <!-- Max is 1 higher than RF_MajorDrain -->
+						<drainDamage>RF_DrainDamage</drainDamage>
+						<fleckDefOnTarget>RF_Fleck_BlastAmethyst_Round</fleckDefOnTarget>
+					</li>
+					<li Class="RimFantasy.WeaponEffect_Heal">
+						<hpToHeal>2~4</hpToHeal> <!-- Max is 1 higher than RF_MajorDrain -->
+						<fleckDefOnSelf>RF_Fleck_BlastAmethyst_Round</fleckDefOnSelf>
+					</li>
+					<li Class="RimFantasy.WeaponEffect">
+						<effectDamage>Burn</effectDamage>
+						<baseDamageValue>10</baseDamageValue> <!-- 2 higher than RF_MajorMagicBlast_Amethyst -->
+						<fleckDefOnTarget>RF_Fleck_BlastAmethyst_Round</fleckDefOnTarget>
+					</li>
+				</weaponEffects>
+			</li>
+		</weaponEffects>
+		<commonality>1.25</commonality>
+		<marketValueOffset>600</marketValueOffset>
+	</RimFantasy.ArcaneWeaponTraitDef>
+
+</Defs>

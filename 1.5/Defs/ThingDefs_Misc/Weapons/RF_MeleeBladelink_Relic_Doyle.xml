@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--========== Amethyst Relic Rapier - Duelist's advance ==========-->
+
+  <ThingDef ParentName="RF_BaseWeapon_ArcaneRapier_Relic">
+      <defName>RF_AmethystRapier_Relic</defName>
+      <label>duelist's advance</label>
+      <graphicData>
+        <texPath>Things/Item/Equipment/WeaponMelee/RF_AmethystRapier_Relic</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>TransparentPostLight</shaderType>
+        <drawSize>1</drawSize>
+      </graphicData>
+      <costList>
+        <RF_Amethyst>55</RF_Amethyst>
+      </costList>
+      <weaponTags>
+        <li>RF_AmethystRapier_Doyle</li>
+      </weaponTags>
+      <comps>
+        <li Class="RimFantasy.CompProperties_GlowerStuffable">
+          <glowRadius>1</glowRadius>
+          <glowColor>(115,65,165)</glowColor>
+          <glowWhileOnGround>true</glowWhileOnGround>
+          <glowWhileStockpiled>true</glowWhileStockpiled>
+          <glowWhileEquipped>true</glowWhileEquipped>
+          <glowRadiusEquipped>1</glowRadiusEquipped>
+          <glowWhileDrawn>true</glowWhileDrawn>
+          <glowRadiusDrawn>1</glowRadiusDrawn>
+        </li>
+        <li Class="CompProperties_Explosive">
+          <wickTicks>90</wickTicks>
+          <explosiveRadius>3</explosiveRadius>
+          <explosiveDamageType>RF_Flame_SmallSquareRF_Amethyst</explosiveDamageType>
+          <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+          <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+          <postExplosionSpawnThingDef>RF_RubbleShardsRF_Amethyst</postExplosionSpawnThingDef>
+          <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+        </li>
+        <li Class="RimFantasy.CompProperties_ArcaneWeapon">
+				<biocodeOnEquip>false</biocodeOnEquip>
+				<minWeaponTraits>1</minWeaponTraits>
+				<maxWeaponTraits>1</maxWeaponTraits>
+          <weaponTraitsPool>
+            <li>RF_EnGarde_Amethyst</li>
+          </weaponTraitsPool>
+        </li>
+      </comps>
+      <modExtensions>
+        <li Class="RimFantasy.RimFantasyExtension">
+          <stuffKey>Amethyst</stuffKey>
+        </li>
+        <li Class="RimFantasy.WeaponDropExtension">
+          <preventDroppingWhenDowned>true</preventDroppingWhenDowned>
+          <preventDroppingWhenDead>true</preventDroppingWhenDead>
+        </li>
+      </modExtensions>
+  </ThingDef>
+
+  <!--========== Amethyst Relic Bastard Sword - Guardian's pledge ==========-->
+
+  <ThingDef ParentName="RF_BaseWeapon_ArcaneBastardSword_Relic">
+      <defName>RF_AmethystBastardSword_Relic</defName>
+      <label>guardian's pledge</label>
+      <graphicData>
+        <texPath>Things/Item/Equipment/WeaponMelee/RF_AmethystBastardSword_Relic</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>TransparentPostLight</shaderType>
+        <drawSize>1</drawSize>
+      </graphicData>
+      <costList>
+        <RF_Amethyst>55</RF_Amethyst>
+      </costList>
+      <weaponTags>
+        <li>RF_AmethystBastardSword_Doyle</li>
+      </weaponTags>
+      <comps>
+        <li Class="RimFantasy.CompProperties_GlowerStuffable">
+          <glowRadius>1</glowRadius>
+          <glowColor>(115,65,165)</glowColor>
+          <glowWhileOnGround>true</glowWhileOnGround>
+          <glowWhileStockpiled>true</glowWhileStockpiled>
+          <glowWhileEquipped>true</glowWhileEquipped>
+          <glowRadiusEquipped>1</glowRadiusEquipped>
+          <glowWhileDrawn>true</glowWhileDrawn>
+          <glowRadiusDrawn>1</glowRadiusDrawn>
+        </li>
+        <li Class="CompProperties_Explosive">
+          <wickTicks>90</wickTicks>
+          <explosiveRadius>3</explosiveRadius>
+          <explosiveDamageType>RF_Flame_SmallSquareRF_Amethyst</explosiveDamageType>
+          <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
+          <postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+          <postExplosionSpawnThingDef>RF_RubbleShardsRF_Amethyst</postExplosionSpawnThingDef>
+          <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+        </li>
+        <li Class="RimFantasy.CompProperties_ArcaneWeapon">
+				<biocodeOnEquip>false</biocodeOnEquip>
+				<minWeaponTraits>1</minWeaponTraits>
+				<maxWeaponTraits>1</maxWeaponTraits>
+          <weaponTraitsPool>
+            <li>RF_LastStand_Amethyst</li>
+          </weaponTraitsPool>
+        </li>
+      </comps>
+      <modExtensions>
+        <li Class="RimFantasy.RimFantasyExtension">
+          <stuffKey>Amethyst</stuffKey>
+        </li>
+        <li Class="RimFantasy.WeaponDropExtension">
+          <preventDroppingWhenDowned>true</preventDroppingWhenDowned>
+          <preventDroppingWhenDead>true</preventDroppingWhenDead>
+        </li>
+      </modExtensions>
+  </ThingDef>
+
+</Defs>

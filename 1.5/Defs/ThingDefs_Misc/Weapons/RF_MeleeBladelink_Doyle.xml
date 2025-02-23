@@ -15,6 +15,9 @@
       <costList>
         <RF_Amethyst>55</RF_Amethyst>
       </costList>
+      <weaponTags>
+        <li>RF_AmethystDagger_Doyle</li>
+      </weaponTags>
       <comps>
         <li Class="RimFantasy.CompProperties_GlowerStuffable">
           <glowRadius>1</glowRadius>
@@ -83,6 +86,9 @@
       <costList>
         <RF_Amethyst>55</RF_Amethyst>
       </costList>
+      <weaponTags>
+        <li>RF_AmethystLongsword_Doyle</li>
+      </weaponTags>
       <comps>
         <li Class="RimFantasy.CompProperties_GlowerStuffable">
           <glowRadius>1</glowRadius>
@@ -154,6 +160,9 @@
       <costList>
           <RF_Amethyst>55</RF_Amethyst>
       </costList>
+      <weaponTags>
+        <li>RF_AmethystBattleAxe_Doyle</li>
+      </weaponTags>
       <comps>
         <li Class="RimFantasy.CompProperties_GlowerStuffable">
           <glowRadius>1</glowRadius>
@@ -225,6 +234,9 @@
       <costList>
         <RF_Amethyst>55</RF_Amethyst>
       </costList>
+      <weaponTags>
+        <li>RF_AmethystWarHammer_Doyle</li>
+      </weaponTags>
       <comps>
         <li Class="RimFantasy.CompProperties_GlowerStuffable">
           <glowRadius>1</glowRadius>
@@ -296,6 +308,9 @@
       <costList>
         <RF_Amethyst>55</RF_Amethyst>
       </costList>
+      <weaponTags>
+        <li>RF_AmethystSpear_Doyle</li>
+      </weaponTags>
       <comps>
         <li Class="RimFantasy.CompProperties_GlowerStuffable">
           <glowRadius>1</glowRadius>
@@ -367,6 +382,9 @@
       <costList>
         <RF_Amethyst>55</RF_Amethyst>
       </costList>
+      <weaponTags>
+        <li>RF_AmethystHalberd_Doyle</li>
+      </weaponTags>
       <comps>
         <li Class="RimFantasy.CompProperties_GlowerStuffable">
           <glowRadius>1</glowRadius>
